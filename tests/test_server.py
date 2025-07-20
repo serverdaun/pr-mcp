@@ -5,8 +5,7 @@ import pytest
 
 # Import your implemented functions
 try:
-    from src.server import (analyze_file_changes, get_pr_templates, mcp,
-                            suggest_template)
+    from src.server import analyze_file_changes, get_pr_templates, mcp, suggest_template
 
     IMPORTS_SUCCESSFUL = True
 except ImportError as e:
